@@ -1,0 +1,72 @@
+.Form{
+    display: flex;
+    height: 580px;
+    margin: auto;
+    width: 80%;
+    gap:50px
+    
+
+}
+.leftInfo {
+    width: 35%;
+    height: 490px;
+    background-color: rgba(0, 0, 255, 0.638);
+    border-radius: 20px;
+}
+.leftInfo h2 {
+padding-left: 27px;
+padding-top: 30px;
+line-height: 1;
+}
+.leftInfo p{
+    color:rgba(255, 255, 255, 0.662);
+    padding-left: 28px;
+    padding-right: 20px;
+}
+.info{
+    color: white;
+    margin-top: 15px;
+    margin-left: 37px;
+    line-height: 2;
+}
+.RightInfo{
+    width: 60%;
+    height: 530px;
+    
+}
+.RightInfo label {
+    display:block;
+    color: rgba(0, 0, 0, 0.722);
+    padding: 10px ;
+   
+}
+input{
+    width: 600px;
+    height: 46px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.334);
+}
+ input:active{
+    border-color: rgba(0, 0, 255, 0.636);
+}
+.submit{
+    height: 45px;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(23, 23, 61, 0.636);
+    margin-left: 20px;
+}
+textarea {
+    width: 600px;
+    height: 100px;
+}
+
+.inline{
+    flex-shrink: 1;
+}
+.block{
+    flex-grow: 0;
+}
+ 

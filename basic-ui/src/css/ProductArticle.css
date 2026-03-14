@@ -1,0 +1,24 @@
+.ProductArticle{
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.792);
+    height: 250px;
+    width: 100%;
+    color: white;
+  
+
+}
+ .ProductArticle h2{
+    padding-top: 50px;
+    font-size: 30px;
+ 
+ }
+ .ProductArticle p{
+    text-align: center;
+    padding: 15px;
+    line-height: 1.6;
+    font-size: 20px; 
+ } 
+ .ProductArticle button {
+    color: rgba(0, 0, 255, 0.597);
+ }
+ 

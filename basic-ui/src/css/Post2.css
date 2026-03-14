@@ -1,0 +1,30 @@
+.Post2{
+     display: flex;
+    justify-content: center;
+   margin: 30px;
+   padding: 30px;
+   width: 90%;
+   margin-top: 0px;
+   gap:70px;
+  
+}
+.Post2 h2{
+    color: aqua;
+    font-size: 31px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+img{
+    height: 500px;
+width: 500px;
+border-radius: 35px;
+}
+.para p{
+   line-height: 1.6;
+    color: rgba(0, 0, 0, 0.666);
+   margin-top: 30px;
+  max-width: 500px;
+    padding: 5px;
+     
+}

@@ -1,0 +1,44 @@
+.Footer{ 
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 255, 0.6);
+    margin-bottom: -19px;
+    
+}
+
+.Footer div {
+    padding: 30px;
+}
+
+ h2{
+    padding-bottom: 15px;
+    color: white;
+    font-size: 20px;
+
+ }
+
+ .Footer p{
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.693);
+ } 
+ .Footer button{
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 255, 0.937);
+    color: white;
+    padding: 10px;
+ } 
+
+  .list li{
+    list-style: none;
+    color:rgb(209 213 219)
+ } 
+ .footer-title{
+    text-align: center;
+    height: 40px;
+     background-color: rgba(0, 0, 255, 0.605);
+       color: rgba(0, 0, 0, 0.693);
+     
+ }

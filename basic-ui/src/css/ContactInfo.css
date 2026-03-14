@@ -1,0 +1,15 @@
+.ContactInfo{
+    text-align: center;
+    margin-top: 10px;
+} 
+
+.ContactInfo h1{
+    font-size: 28px;
+    margin: 10px;
+
+}
+.ContactInfo p {
+    color: rgba(0, 0, 255, 0.638);
+    font-size: 18px;
+    padding-bottom: 40px;
+}

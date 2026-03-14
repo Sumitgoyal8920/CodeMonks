@@ -1,0 +1,52 @@
+.About {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    gap:2.4rem;
+  
+}
+.About-left{
+    flex: 1;
+    margin-left: 8rem;
+}
+.About-left h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.About-left p{
+    color:gray;
+   
+    line-height: 1.6;
+}
+button{
+    margin-top: 1.4rem;
+    height: 3rem;
+    margin-right: 0.6rem;
+}
+#btn1{
+    background: orangered;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+}
+#btn2{
+    background: #1d3557;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+
+}
+
+.About-right{
+    flex:1;
+}
+.About-right img{
+height: 340px;
+width: 550px;
+border-radius: 10px;
+margin-top: -2rem;
+   
+}
