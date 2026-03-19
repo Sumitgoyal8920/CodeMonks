@@ -1,16 +1,17 @@
-export default function ServiceCard({img ,heading1,paragraph1,heading2,p1,p2,p3 }){
+
+export default function ServiceCard({Image,Title,Description,Paragraphs }){
     return(
-        <div className="Servicecard">
+        <div className="ServiceCard">
             <div >
-                <img className="image" src={img}/>
-                <h1>{heading1}</h1>
-                <p>{paragraph1}</p>
+                <img className="image" src={Image}/>
+                <h1>{Title}</h1>
+                <p>{Description}</p>
             </div>
             <div className="text">
-                <h1>{heading2}</h1>
-                <p>{p1}</p>
-                <p>{p2}</p>
-                <p>{p3}</p>
+                <h1>{Title}</h1>
+                 {Paragraphs.map((Paragraphs, index) => (
+          <p key={index}>{Paragraphs}</p>
+        ))}
                 
             </div>
         </div>

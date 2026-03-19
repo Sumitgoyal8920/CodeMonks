@@ -1,0 +1,44 @@
+
+
+.HomeSlider {
+  text-align: center;
+}
+.HomeSlider h1{
+  text-align: center;
+  color: rgba(0, 0, 255, 0.622);
+  padding: 3rem;
+}
+
+ .data {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.586);
+  height: 180px;
+  width: 900px;
+  padding: 30px;
+  margin: auto;
+  text-align: justify;
+ box-shadow: 2px 2px 2px 2px ;
+  border: 2px solid white;
+  
+  
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: blue;
+}

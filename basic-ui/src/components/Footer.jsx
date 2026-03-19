@@ -1,14 +1,12 @@
-import React from "react";
 import "../Css/Footer.css";
 function Footer() {
     return (
         <>
         <div className="Footer">
             <div>
-                <h2>Code Monks</h2>
+                <h1>Code Monks</h1>
                 <p>Building reliable, scalable, and <br></br>intelligent software solutions<br></br> with clean code and great <br></br>minds.</p>
             </div>
-
             <div>
                 <h2>Company</h2>
                 <ul className="list">
@@ -17,7 +15,6 @@ function Footer() {
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
-
             </div>
 
             <div>
@@ -37,10 +34,9 @@ function Footer() {
                     +91-7503366400</p>
             </div>
             <div><button>Contact</button></div>
-            <br></br>
-           
+            
         </div>
-        <br></br>
+      
         <p className="footer-title">© 2025 Code Monks. Crafted with ❤️ for innovation.</p>
         </>
     )

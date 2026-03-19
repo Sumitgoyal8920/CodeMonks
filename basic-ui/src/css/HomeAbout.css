@@ -1,4 +1,4 @@
-.About {
+.HomeAbout {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
@@ -6,20 +6,21 @@
     gap:2.4rem;
   
 }
-.About-left{
+.HomeAbout-left{
     flex: 1;
     margin-left: 8rem;
 }
-.About-left h1{
+.HomeAbout-left h1{
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-.About-left p{
+.HomeAbout-left p{
     color:gray;
    
     line-height: 1.6;
 }
-button{
+
+.HomeAbout-left button{
     margin-top: 1.4rem;
     height: 3rem;
     margin-right: 0.6rem;
@@ -40,13 +41,13 @@ button{
 
 }
 
-.About-right{
+.HomeAbout-right{
     flex:1;
 }
-.About-right img{
+.HomeAbout-right img{
 height: 340px;
 width: 550px;
 border-radius: 10px;
 margin-top: -2rem;
-   
+
 }

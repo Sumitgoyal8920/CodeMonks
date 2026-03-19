@@ -1,4 +1,5 @@
 import {BrowserRouter,Routes,Route}from "react-router-dom";
+import Layout from "./Layout/Layout";
 import Home from "./pages/home";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
@@ -10,18 +11,16 @@ function App() {
   return (
     <>
 <BrowserRouter>
+<Layout>
 <Routes>
-  <Route path ="/"element={<Home/>}/>
+  <Route path="/"element={<Home/>}/>
   <Route path ="/AboutUs"element={<AboutUs/>}/>
   <Route path ="/Services"element={<Services/>}/>
   <Route path ="/Products"element={<Products/>}/>
    <Route path ="/Contact"element={<Contact/>}/>
-
-
 </Routes>
+</Layout>
 </BrowserRouter>
-
-
     </>
   )
 }

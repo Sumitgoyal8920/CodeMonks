@@ -3,24 +3,29 @@
     justify-content: center;
     padding-top: 20px;
     background-color: rgba(0, 0, 255, 0.6);
-    margin-bottom: -19px;
-    
 }
 
 .Footer div {
-    padding: 30px;
+    padding: 2rem;
 }
 
- h2{
-    padding-bottom: 15px;
+  .Footer h1{
+    padding-bottom: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 1.7rem;
+
+ }
+ .Footer h2{
+   padding-bottom: 10px;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1.8rem;
 
  }
 
  .Footer p{
     line-height: 1.4;
-    color: rgba(0, 0, 0, 0.693);
+    color: rgba(255, 255, 255, 0.879);
  } 
  .Footer button{
     height: 40px;
@@ -33,7 +38,8 @@
 
   .list li{
     list-style: none;
-    color:rgb(209 213 219)
+    color:rgba(255, 255, 255, 0.874);
+  
  } 
  .footer-title{
     text-align: center;

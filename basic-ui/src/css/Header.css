@@ -5,6 +5,9 @@
   background-color:rgba(248,249,250) ;
   padding:15px ;
   height: 8vh;  
+  position:fixed;
+  top: 0;
+  width: 100%;
   
 }
 .Header img {

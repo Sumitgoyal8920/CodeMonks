@@ -1,21 +1,28 @@
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import CardTab from "../components/CardTab";
-import About from "../components/About";
-import Testimonials from "../components/Testimonial";
-import Footer from "../components/Footer";
+import HeroSection from "../components/HeroSection";
+import HomeCard from "../components/HomeCard";
+import HomeCardData from "../data/HomeCardData.json";
+import HomeAbout from "../components/HomeAbout";
+import HomeSlider from "../components/HomeSlider";
 
-
-function Home (){
+function Home() {
     return (
         <>
-     <Header/>
-    <Hero/>
-<CardTab/> 
-<About/>
-<Testimonials/>
-<Footer/>
-    </>
+            <HeroSection />
+
+            <div className="container">
+                {HomeCardData.map((card, index) => (
+                    <HomeCard
+                        key={index}
+                        title={card.title}
+                        description={card.description}
+                        items={card.items}
+                    />
+                ))}
+            </div>
+
+            <HomeAbout />
+            <HomeSlider />
+        </>
     )
 }
- export default Home ;
+export default Home;

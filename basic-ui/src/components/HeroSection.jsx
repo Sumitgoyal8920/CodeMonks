@@ -1,7 +1,6 @@
-import React from "react";
-import "../Css/Hero.css";
+import "../Css/HeroSection.css";
 
-function Hero() {
+function HeroSection() {
   return (
     <div className="hero">
       <div className="overlay">
@@ -16,4 +15,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HeroSection;
