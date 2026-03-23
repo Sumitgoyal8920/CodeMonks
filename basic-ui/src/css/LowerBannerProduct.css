@@ -1,41 +1,34 @@
-.LowerBanner{
+.LowerBannerProduct{
     text-align: center;
     background-color: rgba(137, 43, 226, 0.603);
-    height: 400px;
+    height: 250px;
     width: 100%;
     color: white;
   
 
 }
- .LowerBanner h1{
-   font-size: 1.5rem;
-    padding-top: 2rem; 
+ .LowerBannerProduct h1{
+   font-size: 2rem;
+    padding-top: 3.5rem; 
     color :white;
-    max-width: 500px;
-   
+    max-width: 600px;
     margin: auto;
  }
- .LowerBanner p{
+ .LowerBannerProduct p{
     text-align: center;
-    padding:1rem;
-    line-height: 1.8;
+   padding-top: 1rem; 
     font-size: 1.2rem;
     max-width: 800px; 
     margin: auto;
+    text-align: center;
  } 
- .LowerBanner button {
+ .LowerBannerProduct button {
     color: rgba(0, 0, 255, 0.597);
     border-radius: 10px;
-width:360px;
-height: 55px;
-margin-top: 10px;
+width:150px;
+height:50px;
 border-radius: 30px;
 border: none;
+margin-top: 1rem;
 font-size: 1.1rem;
  }
- .LowerBanner button:hover{
-   width: 390px;
-   height: 60;
-   font-size: 1.3rem;
- }
- 

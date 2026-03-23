@@ -11,7 +11,8 @@ function AboutUs(){
                 Image ={item.Image}
                 Heading ={item.Heading}
                 Paragraph={item.Paragraph}
-                type={item.type}
+                Founder ={item.Founder}
+                
             />
             }
         )}

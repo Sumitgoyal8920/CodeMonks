@@ -1,13 +1,13 @@
 
 import ContactInfo from "../components/ContactInfo";
-import UserForm from "../components/UserForm";
+import ContactForm from "../components/ContactForm";
 
 function Contact(){
     return(
         <>
 
 <ContactInfo/>
-<UserForm/>
+<ContactForm/>
 
 </>
     )

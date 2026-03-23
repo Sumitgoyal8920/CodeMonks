@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../Css/ServiceIntro.css";
 function ServiceIntro(){
     return(

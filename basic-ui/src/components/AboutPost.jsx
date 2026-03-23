@@ -1,37 +1,20 @@
 import "../Css/AboutPost.css";
-function AboutPost({Image,Heading,Paragraph,type}){
- 
-    if(type === "first"){
+function AboutPost({Image,Heading,Paragraph,Founder}){
+const isHeading =true;
+const isFounder =true;
         return(
             <div className="Post">
                 <div className="left">
+                    {isFounder?<h3>{Founder}</h3>:""}
                     <img src ={Image}/>
                 </div>
                 <div className="right">
-                    <h2>{Heading}</h2>
+                       {isHeading?<h2>{Heading}</h2>:""}
                     
                     {Paragraph.map((Paragraph, index) => (
-                        <p key={index}>{Paragraph}</p>
+                        <p  >{Paragraph}</p>
         ))}
                 </div>
             </div>
-        )
-    }
-    if(type === "second"){
-        return (
-            <div className="Post">
-                <div className="left">
-                    <h2>{Heading}</h2>
-                    <img src ={Image}/>
-                </div>
-                <div className="right">
-                    {Paragraph.map((Paragraph, index) => (
-          <p key={index}>{Paragraph}</p>
-        ))}
-                </div>
-            </div>
-        )
-    }
-
-}
-export default AboutPost ;
+        )}
+         export default AboutPost

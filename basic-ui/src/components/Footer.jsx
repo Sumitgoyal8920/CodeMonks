@@ -1,4 +1,7 @@
 import "../Css/Footer.css";
+import {Link} from "react-router-dom";
+import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+
 function Footer() {
     return (
         <>
@@ -27,13 +30,29 @@ function Footer() {
                 </ul>
             </div>
 
-            <div>
+            <div className="Reach">
                 <h2>Reach Us</h2>
                 <p>Email: crm@codemonks.in<br></br>
                     Phone: +91-9999131058<br></br>
                     +91-7503366400</p>
+
+                    <div className="social-icons">
+  <a href="https://linkedin.com" target="_blank">
+    <FaLinkedin />
+  </a>
+
+  <a href="https://twitter.com" target="_blank">
+    <FaTwitter />
+  </a>
+
+  <a href="https://instagram.com" target="_blank">
+    <FaInstagram />
+  </a>
+</div>
             </div>
-            <div><button>Contact</button></div>
+            
+            
+            <div><Link to ="/Contact"><button>Contact with Us</button></Link></div>
             
         </div>
       

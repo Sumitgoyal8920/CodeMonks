@@ -1,6 +1,7 @@
 
  .left img {
     width: 550px;
+    height: 550px;
     border-radius: 10px;
 } 
 
@@ -9,22 +10,36 @@
     font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+
 }
  .Post {
   display:flex ;
     width: 90%;
     gap: 2rem;
-    
+    height: 750px;
     margin: 2rem;
-
+    margin-bottom: 0px;
+    
  }
  .right p{
     font-size: 1.2rem;
     max-width: 650px;
-    line-height: 1.6;
+    line-height: 1.5;
     color: rgba(0, 0, 0, 0.599);   
     text-align: justify; 
-    margin: 1.8rem;
+    padding: 1.4rem;
    
  } 
+ .Post h3{
+    color: rgba(0, 128, 0, 0.655);
+    font-size: 2.2rem;
+    text-align: center;
+   
+  margin:1.4rem;
+}
+.right{
+   margin-top: 2rem;
+}
+.highlinht{
+   color:blue
+}

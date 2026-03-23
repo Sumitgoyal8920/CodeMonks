@@ -1,7 +1,8 @@
-import "../Css/UserForm.css";
-export default function UserForm() {
+import "../Css/ContactForm.css";
+export default function ContactForm() {
+    
     return (
-        <div className="UserForm">
+        <div className="ContactForm">
             <div className="leftInfo">
                 <div className="leftInfoData">
                     <h2>Let's get in touch</h2>
@@ -16,26 +17,23 @@ export default function UserForm() {
 
             <div className="RightInfo">
                 <form>
-                   
-                    <label   for="full name" >FULL NAME</label>
-                      <label className="row-label"  for="Email Address" >EMAIL</label>
-                    
-                       
-                    <div className="row">
-                        <input type="text" id="full name" placeholder="Full Name"  ></input>
-                      
 
-                     
-                        <input type="Email" id="Email Address" placeholder="Email"  ></input>
+                    <label for=" name" > NAME</label>
+                    <label className="row-label" for="Email Address" >EMAIL</label>
+
+
+                    <div className="row">
+                        <input type="text" id=" name" placeholder="Your Name"  ></input>
+                        <input type="Email" id="Email Address" placeholder=" Your Email"  ></input>
                     </div>
-<label for="Subject" >SUBJECT</label>
+                    <label for="Subject" >SUBJECT</label>
                     <div className="row">
-                        <input className="row" type="text" id="Subject"  placeholder="Subjects"></input></div>
-<label for="message" >Message</label>
+                        <input className="row" type="text" id="Subject" placeholder="Subjects"></input></div>
+                    <label for="message" >Message</label>
                     <div className="row">
-                        
+
                         <textarea className="row" id="message" placeholder="Write Your Message..." ></textarea>
-                        </div>
+                    </div>
 
 
                     <button className="submit">submit</button>
@@ -43,4 +41,5 @@ export default function UserForm() {
             </div>
         </div>
     )
+
 }

@@ -1,4 +1,6 @@
 import "../Css/HeroSection.css";
+import {Link} from "react-router-dom" ;
+
 
 function HeroSection() {
   return (
@@ -9,7 +11,7 @@ function HeroSection() {
           We build awesome things. Ready to grow your brand?
           Let’s build <br></br>something great together.
         </p>
-        <button>Explore Our Services</button>
+       <Link to = "/Services"><button>Explore Our Services</button></Link> 
       </div>
     </div>
   );

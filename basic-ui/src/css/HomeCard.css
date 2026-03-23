@@ -1,22 +1,17 @@
-body{
-  font-family: Arial;
-  background:#f6f7fb;
-}
 
 .container{
   display:flex;
   justify-content:center;
   gap:2rem;
-  height: 400px;
+  height: 450px;
   position: relative;
   top :-5rem ;
   box-sizing: border-box;
-  
 }
 
 .HomeCard{
   width:20%;
-  background:white;
+  background-color:white;
   border-radius:1rem;
   text-align:center;
   box-shadow:0 10px 25px white;
@@ -30,33 +25,44 @@ box-shadow: 8px 8px 8px 8px #00000081;
 
 
 .cardHeading{
-  padding-top: 1.5rem;
-   padding-bottom: 1.5rem;
-   opacity: 0.9;
+ 
+  padding: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+ 
+   opacity: 0.8;
 }
 .desc{
    padding-bottom: 1.4rem;
-   opacity: 0.7;
+   opacity: 0.6;
 }
  ul li{
-line-height: 2;
-   opacity: 0.8;
+line-height: 2.2;
+   opacity: 0.6;
    text-align:justify;
    padding-left: 0.6rem;
    margin-left: 1.4rem;
-list-style:circle
+list-style:circle;
+
  } 
- .card{   
-    background-color: white;
-    color :black;
-    display: flex;
-    border: 2px solid black;
-    
-}
+   
 .single-card{
     height: 400px;
     width:20%;
    margin: 1.4rem;
-; 
+  
+}
+.HomeCard:hover{
+  background-color: rgb(0, 255, 255);
+}
+.icon {
+  font-size: 40px;
+margin-top: 2rem;
+  color: #00bcd4; 
+
 }
 
+.Mobile { color: #00bcd4; }
+.Web { color: #ff6a00; }
+.Crm { color: #a020f0; }
+.Cloud { color: #6c63ff; }

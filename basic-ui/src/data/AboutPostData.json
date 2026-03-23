@@ -5,21 +5,21 @@
 "Image":"../src/assets/post1.svg",
 "Paragraph":["At Code Monks, we are passionate about transforming ideas into powerful digital experiences. Founded four years ago, we have grown into a full-service IT solutions and digital marketing company, delivering high-end, results-driven projects to clients across diverse industries.",
 "Our expertise spans custom software development, web and mobile app solutions, UI/UX design, and strategic digital marketing. We blend cutting-edge technology with data-driven marketing strategies to help brands increase visibility, engage audiences, and achieve measurable business growth.",
-"Every project we take on is guided by our commitment  quality, innovation, and client success.,</span> From conceptualization to launch and beyond, we ensure seamless communication, timely delivery, and solutions that are both scalable and future-ready.",
+"Every project we take on is guided by our commitment quality, innovation, and client success. From conceptualization to launch and beyond, we ensure seamless communication, timely delivery, and solutions that are both scalable and future-ready.",
 "At Code Monks, we don’t just deliver projects — we create digital assets that empower businesses to thrive in a competitive market. Your success is our mission, and excellence is our standard"
-],
-"type":"first"
+]
+
     },
 
     {
         "id ":2,
-"Heading":"About the Founder- Vishal Garg",
+"Founder":"About the Founder- Vishal Garg",
 "Image":"../src/assets/VishalSir.jpg",
 "Paragraph":[
     "The visionary behind Code Monks, Vishal Garg, brings over a decade of expertise in the technology industry, having collaborated with some of the most renowned global and national brands, including Airtel, Paytm, PepsiCo, and D-Mart.",
     "With a strong background in software development, digital transformation, and strategic technology implementation,Vishal Garg has a proven track record of delivering solutions that drive measurable results. His experience spans leading complex projects, optimizing digital operations, and leveraging data-driven strategies to help businesses succeed in competitive markets.",
     "Passionate about innovation, quality, and client success, he founded Code Monks with a vision to combine cutting-edge technology with strategic digital marketing to empower brands, enhance customer engagement, and accelerate growth. Under his leadership, the company has successfully delivered numerous high-impact projects for clients across industries, building a reputation for excellence and trust."
-],
-"type":"second"
+]
+
     }
 ]

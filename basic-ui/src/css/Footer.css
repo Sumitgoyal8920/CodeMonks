@@ -3,6 +3,7 @@
     justify-content: center;
     padding-top: 20px;
     background-color: rgba(0, 0, 255, 0.6);
+   
 }
 
 .Footer div {
@@ -30,10 +31,12 @@
  .Footer button{
     height: 40px;
     width: 160px;
+    font-size: 1rem;
     border-radius: 25px;
     background-color: rgba(0, 0, 255, 0.937);
     color: white;
     padding: 10px;
+    border: none;
  } 
 
   .list li{
@@ -45,6 +48,37 @@
     text-align: center;
     height: 40px;
      background-color: rgba(0, 0, 255, 0.605);
-       color: rgba(0, 0, 0, 0.693);
+       color: rgba(0, 0, 0, 0.689);
      
  }
+
+ .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 25px;
+  color: #555;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+/* brand colors */
+.social-icons a:nth-child(1):hover {
+  color: #0A66C2; /* LinkedIn */
+}
+
+.social-icons a:nth-child(2):hover {
+  color: #1DA1F2; /* Twitter */
+}
+
+.social-icons a:nth-child(3):hover {
+  color: #E1306C; /* Instagram */
+}
+
+ 

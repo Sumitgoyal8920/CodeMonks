@@ -1,0 +1,36 @@
+.LowerBannerServices{
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.603);
+    height: 350px;
+    width: 100%;
+    color: white;
+  
+
+}
+ .LowerBannerServices h1{
+   font-size: 2rem;
+    padding-top: 1.5rem; 
+    color :white;
+    max-width: 600px;
+    margin: auto;
+ }
+ .LowerBannerServices p{
+    text-align: center;
+    padding:1.5rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    max-width: 800px; 
+    margin: auto;
+    text-align: justify;
+ } 
+ .LowerBannerServices button {
+    color: rgba(0, 0, 255, 0.597);
+    border-radius: 10px;
+width:330px;
+height: 60px;
+border-radius: 30px;
+border: none;
+font-size: 1.2rem;
+ }
+ 
+ 

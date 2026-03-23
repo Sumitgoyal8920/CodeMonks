@@ -1,6 +1,7 @@
 [
     {
     "id":1,
+    "Icon" :"Mobile",
     "title" :"Mobile App  Development",
         "description" :"Crafting sleek and performant mobile experiences.",
         "items":[
@@ -13,6 +14,7 @@
 },
 {
     "id":2,
+     "Icon" :"Web",
     "title":"Web Development",
         "description":"Modern responsive websites and apps.",
         "items":[
@@ -25,6 +27,7 @@
 },
 {
     "id":3,
+     "Icon" :"Crm",
     "title":"Custom CRM Development",
         "description":"Automate and organize business operations.",
         "items":[
@@ -38,6 +41,7 @@
 
 {
     "id":4,
+     "Icon" :"Cloud",
     "title":"Cloud & DevOps",
         "description":"Infrastructure and cloud solutions.",
         "items":[
